@@ -39,16 +39,13 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
-  Max Compatibility (IE6+)
   background: rgb(200,255,0);
   background: linear-gradient(180deg, rgba(200,255,0,1) 0%, rgba(25,255,0,1) 70%, rgba(1,7,43,1) 100%);
 }
 
 #text1, #text2, #text3, #text4 {
   margin-left: 5vw;
-  margin-bottom: 1.3vw;
+  margin-bottom: 0.5vw;
   font-weight: 600;
 }
 
@@ -57,7 +54,7 @@ html, body {
 }
 
 #emotion4 {
-  margin-bottom: 9vw;
+  margin-bottom: 9.7vw;
 }
 
 .zag {
