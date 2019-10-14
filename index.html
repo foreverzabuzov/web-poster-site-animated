@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ООО «Новый Разум»</title>
+  <link rel="stylesheet" href="styles/layout.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/word_changer.js"></script>
+  <script src="js/smooth_scroll.js">
+  </script>
+</head>
+<body>
+<main>
+  <section class="first-stage">
+      <div class="emotion" id="emotion1"><p>🤯</p></div>
+      <div class="text" id="text1"><p>паника</p></div>
+  </section>
+  <section class="second-stage">
+    <div class="emotion" id="emotion2"><p>😤</p></div>
+    <div class="text" id="text2"><p>нервозность</p></div>
+  </section>
+  <section class="third-stage">
+    <div class="emotion" id="emotion3"><p>🤔</p></div>
+    <div class="text" id="text3"><p>любопытство</p></div>
+  </section>
+  <section class="fourth-stage">
+    <div class="emotion" id="emotion4"><p>😍</p></div>
+    <div class="text" id="text4"><p>любовь</p></div>
+  </section>
+  <div id="particles-js">
+    <div class="zag">
+      <p>Ваши эмоции — это <h1>спектр</h1>.</p>
+    </div>
+    <div class="podzag">
+      <p>И мы знаем, как их направить</p>
+      <p>в нужную сторону.</p>
+    </div>
+    <div class="station">
+      <img src="images/station.png" alt="">
+    </div>
+    <div class="logo">
+      <img src="images/logo.png" alt="">
+    </div>
+    <div class="description">
+      <p>Лучшая орбитальная клиника по восстановлению эмоций.</p>
+    </div>
+
+  </div>
+</main>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function(){
+      console.log('particles.json loaded...');
+    });
+  </script>
+</body>
+</html>

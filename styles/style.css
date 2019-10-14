@@ -1,0 +1,127 @@
+html, body {
+  height: 100%;
+}
+
+.first-stage {
+  width: auto;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255,0,0);
+  background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,103,0,1) 100%);
+}
+
+.second-stage {
+  width: auto;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255,103,0);
+  background: linear-gradient(180deg, rgba(255,103,0,1) 0%, rgba(255,216,0,1) 100%);
+}
+
+.third-stage {
+  width: auto;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255,216,0);
+  background: linear-gradient(180deg, rgba(255,216,0,1) 0%, rgba(200,255,0,1) 100%);
+}
+
+.fourth-stage {
+  width: auto;
+  height: 39vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  Max Compatibility (IE6+)
+  background: rgb(200,255,0);
+  background: linear-gradient(180deg, rgba(200,255,0,1) 0%, rgba(25,255,0,1) 70%, rgba(1,7,43,1) 100%);
+}
+
+#text1, #text2, #text3, #text4 {
+  margin-left: 5vw;
+  margin-bottom: 1.3vw;
+}
+
+#text4 {
+  margin-bottom: 10.3vw;
+}
+
+#emotion4 {
+  margin-bottom: 9vw;
+}
+
+.zag {
+  opacity:0.9;
+  padding-left:10vw;
+  padding-top: 10vw;
+  color: white;
+  font-size: 7vw;
+  position: absolute;
+  top: 130vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.zag h1 {
+  margin-left: 1vw;
+  background: -webkit-linear-gradient(left, #FF0017, #FF6526, #FFD747, #00FF4F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.podzag {
+  padding-left: 10vw;
+  padding-top: 10vw;
+  color: white;
+  position: absolute;
+  top: 150vh;
+  font-size: 4vw;
+}
+
+
+.station img {
+  width: 40%;
+  position: absolute;
+  left: 10vw;
+  top: 190vh;
+}
+
+.logo img {
+  width: 30%;
+  position: absolute;
+  right: 10vw;
+  top: 190vh;
+}
+
+.description {
+  color: white;
+  position: absolute;
+  right: 1vw;
+  top: 210vh;
+  font-size: 2.5vw;
+}
+
+
+.text {
+  color: white;
+  font-size: 5vw;
+}
+
+.emotion {
+  color: white;
+  font-size: 7vw;
+}
+
+#particles-js {
+  width: auto;
+  height: 130vh;
+  background: #00062d;
+}
