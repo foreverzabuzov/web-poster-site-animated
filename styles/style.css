@@ -73,14 +73,14 @@ html, body {
 }
 
 .zag h1 {
-  margin-left: 1vw;
+  margin-left: 1.2vw;
   background: -webkit-linear-gradient(left, #FF0017, #FF6526, #FFD747, #00FF4F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .podzag {
-  padding-left: 9vw;
+  padding-left: 9.25vw;
   padding-top: 10vw;
   color: white;
   position: absolute;
@@ -100,7 +100,7 @@ html, body {
 .logo img {
   width: 25%;
   position: absolute;
-  right: 19.5vw;
+  right: 17vw;
   top: 67vh;
 }
 
@@ -142,7 +142,7 @@ right: 0;
 top: 115vh;
 margin-left: auto;
 margin-right: auto;
-width: 100px; /* Need a specific value to work */
+width: 100px;
 
 width: 10em;
 height: 10vh;
