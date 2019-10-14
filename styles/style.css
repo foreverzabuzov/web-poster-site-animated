@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .first-stage {
@@ -48,6 +49,7 @@ html, body {
 #text1, #text2, #text3, #text4 {
   margin-left: 5vw;
   margin-bottom: 1.3vw;
+  font-weight: 600;
 }
 
 #text4 {
@@ -59,13 +61,16 @@ html, body {
 }
 
 .zag {
-  opacity:0.9;
-  padding-left:10vw;
+  padding-left:9vw;
   padding-top: 10vw;
   color: white;
-  font-size: 7vw;
+  font-size: 6vw;
   position: absolute;
-  top: 130vh;
+  top: 5vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: row;
 }
@@ -78,35 +83,45 @@ html, body {
 }
 
 .podzag {
-  padding-left: 10vw;
+  padding-left: 9vw;
   padding-top: 10vw;
   color: white;
   position: absolute;
-  top: 150vh;
+  top: 20vh;
   font-size: 4vw;
+  font-weight: 300;
 }
 
 
 .station img {
-  width: 40%;
+  width: 50%;
   position: absolute;
-  left: 10vw;
-  top: 190vh;
+  left: 3vw;
+  top: 60vh;
 }
 
 .logo img {
-  width: 30%;
+  width: 25%;
   position: absolute;
-  right: 10vw;
-  top: 190vh;
+  right: 19.5vw;
+  top: 67vh;
 }
 
 .description {
   color: white;
   position: absolute;
-  right: 1vw;
-  top: 210vh;
-  font-size: 2.5vw;
+  right: 15vw;
+  top: 83vh;
+  font-size: 2.3vw;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description p {
+  margin-bottom: 1vw;
 }
 
 
@@ -120,8 +135,38 @@ html, body {
   font-size: 7vw;
 }
 
+.wanna_try_button {
+
+
+display: flex;
+position: absolute;
+left: 0;
+right: 0;
+top: 115vh;
+margin-left: auto;
+margin-right: auto;
+width: 100px; /* Need a specific value to work */
+
+width: 10em;
+height: 10vh;
+
+text-decoration: none;
+
+color: white;
+border: 3px solid #ffffff;
+border-radius: 9px;
+background: transparent;
+
+font-size: 32px;
+
+align-items: center;
+justify-content: center;
+align-content: center;
+}
+
 #particles-js {
   width: auto;
   height: 130vh;
   background: #00062d;
+  position: relative;
 }
